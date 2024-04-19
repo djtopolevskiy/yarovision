@@ -1,35 +1,36 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Dmotion() {
   return (
-    <section className='w-full h-auto border-b border-custom flex justify-center items-center relative' >
+    <section className='w-full h-[400px] md:h-[600px] border-b border-custom flex justify-start items-center relative' >
       <Image
         src="/3DMotion.png"
-        width={1730}
-        height={890}
+        // width={1730}
+        // height={890}
         alt="Picture of the author"
         // sizes="100vw"
-        sizes="(max-width: 1730px) 100vw, 23vw"
+        sizes="(max-width: 1730px)"
         // style={{
         //   width: '100%',
         //   height: 'auto',
         // }}
         style={{ objectFit: "cover" }}
         priority={true}
-        	// fill={true}
+        	fill={true}
       />
-      <section className="container flex flex-col justify-start items-start absolute  pt-16 ">
-        <div className=' top-10 sm:top-32 md:top-40 lg:top-52'>
-          <h1 className="uppercase sm:pl-8 font-medium leading-none text-l sm:text-2xl md:text-3xl lg:text-5xl backdrop-blur-sm p-1 rounded-xl">3D MOTION DESIGNER</h1>
-          <p className="sm:pl-8 text-[10px] md:text-xl leading-none font-normal p-1 max-w-48 sm:max-w-[640px]">A Worthy brand deserves worthy promotion.</p>
+      <section className="flex flex-col z-10 sm:pl-8 pt-12 sm:pt-16 ">
+        <h1 className=" uppercase w-fit font-medium text-balance text-4xl md:text-5xl p-1">3D MOTION DESIGNER</h1>
+        <p className=" text-lg md:text-xl text-balance leading-none font-normal p-1">A Worthy brand deserves worthy promotion.</p>
+        <div className='table'>
+          <Link className='mt-3 inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50' href="/#contactme">Contact</Link>
         </div>
       </section>
-      
-     
-    
     </section>
   )
 }
 
 export default Dmotion
+
+      
