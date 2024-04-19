@@ -13,7 +13,7 @@ function Portfolio() {
         alt="cards"
         // width={1730}
         // height={4400}
-        sizes="(max-width: 1440px) 50vw, 33vw"
+        sizes="(max-width: 1440px)"
         style={{ objectFit: "fill", objectPosition: " " }}
         priority={true}
         />
@@ -26,7 +26,7 @@ function Portfolio() {
             alt="video_art"
             width={800}
             height={400}
-            sizes="(max-width: 1730px) 100vw, 23vw"
+            sizes="(max-width: 1730px)"
             style={{ objectFit: "cover", objectPosition: " " }}
             priority={true}
           />
@@ -40,7 +40,7 @@ function Portfolio() {
         alt="phoenixcore"
         width={800}
         height={800}
-        sizes="(max-width: 800px) 50vw, 23vw"
+        sizes="(max-width: 800px)"
         style={{ objectFit: "cover", objectPosition: " " }}
         priority={true}
           />
@@ -54,7 +54,7 @@ function Portfolio() {
             alt="immutable_img"
             width={800}
             height={800}
-            sizes="(max-width: 1730px) 100vw, 23vw"
+            sizes="(max-width: 1730px)"
             style={{ objectFit: "cover", objectPosition: " " }}
             priority={true}
           />
@@ -68,7 +68,7 @@ function Portfolio() {
             alt="ilsy"
             width={800}
             height={800}
-            sizes="(max-width: 1730px) 100vw, 23vw"
+            sizes="(max-width: 1730px)"
             style={{ objectFit: "cover", objectPosition: " " }}
             priority={true}
           />
@@ -82,7 +82,7 @@ function Portfolio() {
             alt="eagle"
             width={800}    
             height={800}
-            sizes="(max-width: 1730px) 100vw, 23vw"
+            sizes="(max-width: 1730px)"
             style={{ objectFit: "cover", objectPosition: " " }}
             priority={true}
           />
@@ -96,7 +96,7 @@ function Portfolio() {
         alt="reels"
         width={800}
         height={800}
-        sizes="(max-width: 1730px) 100vw, 23vw"
+        sizes="(max-width: 1730px)"
         style={{ objectFit: "cover", objectPosition: " " }}
         priority={true}
           />
